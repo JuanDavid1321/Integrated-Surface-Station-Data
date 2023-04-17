@@ -9,3 +9,13 @@ La aplicación consta de una pantalla principal en la que el usuario puede ingre
 
 Además, se grafican con ayuda de Open Layers cada una de estas estaciones como puntos rojos en el mapa, esta funcionalidad, através de una interfaz web.
 
+## Requerimientos
+
+- Python 3
+- Tkinter
+- PySpark
+- OpenLayers
+- Servidor Web (puede ser local)
+
+## Contribuciones
+Este proyecto ha sido desarrollado como parte de un curso académico y no aceptamos contribuciones externas. Sin embargo, si encuentra algún error o problema en la aplicación, puede informarlo a través de los issues en este repositorio.
