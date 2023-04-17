@@ -7,5 +7,5 @@ La aplicación está desarrollada en Python y utiliza la biblioteca Tkinter para
 
 La aplicación consta de una pantalla principal en la que el usuario puede ingresar el código de país según los datos de la NOAA y hacer clic en el botón "Procesar". Al hacerlo, se genera un dataframe con los datos de ubicación (latitud y longitud) de todas las estaciones climatológicas correspondientes a ese país y genera un archivo JSON con la información de las estaciones climatológicas del país seleccionado.
 
-Además, se grafican con ayuda de Open Layers cada una de estas estaciones como puntos rojos en el mapa.
+Además, se grafican con ayuda de Open Layers cada una de estas estaciones como puntos rojos en el mapa, esta funcionalidad, através de una interfaz web.
 
