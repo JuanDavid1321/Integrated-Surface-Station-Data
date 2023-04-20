@@ -1,4 +1,4 @@
-# Station-Spotter
+# Climatological-Station-Spotter
 
 [Readme en Español](README(es).md)
 
