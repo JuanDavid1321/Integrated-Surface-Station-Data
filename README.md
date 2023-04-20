@@ -2,16 +2,16 @@
 
 [Readme en Español](README(es).md)
 
-Esta aplicación ha sido desarrollada como parte del curso de Aplicaciones y Servicios Telemáticos de la Universidad del Cauca. La aplicación permite visualizar en un mapa las estaciones climatológicas de un país en particular a partir de la información contenida en el archivo 'isd-history.csv' de la NOAA de Estados Unidos.
+This application was developed as part of the Telematic Applications and Services course at the University of Cauca. The application allows users to visualize the climatological stations of a particular country on a map, using information from the 'isd-history.csv' file from the United States NOAA.
 
-## Funcionamiento de la app
-La aplicación está desarrollada en Python y utiliza la biblioteca Tkinter para la interfaz gráfica de usuario. Para la manipulación y visualización de datos se utiliza PySpark y Open Layers.
+## How the app works
+The application is developed in Python and uses the Tkinter library for the graphical user interface. PySpark and Open Layers are used for data manipulation and visualization.
 
-La aplicación consta de una pantalla principal en la que el usuario puede ingresar el código de país según los datos de la NOAA y hacer clic en el botón "Procesar". Al hacerlo, se genera un dataframe con los datos de ubicación (latitud y longitud) de todas las estaciones climatológicas correspondientes a ese país y genera un archivo JSON con la información de las estaciones climatológicas del país seleccionado.
+The application consists of a main screen where the user can enter the country code according to NOAA data and click the "Process" button. This generates a dataframe with location data (latitude and longitude) of all the climatological stations corresponding to that country and generates a JSON file with the information of the selected country's climatological stations.
 
-Además, se grafican con ayuda de Open Layers cada una de estas estaciones como puntos rojos en el mapa, esta funcionalidad, através de una interfaz web.
+In addition, using Open Layers, each of these stations is graphed as red points on a map through a web interface.
 
-## Requerimientos
+## Requirements
 
 - Python 3
 - Tkinter
@@ -19,5 +19,5 @@ Además, se grafican con ayuda de Open Layers cada una de estas estaciones como 
 - OpenLayers
 - Servidor Web (puede ser local)
 
-## Contribuciones
-Este proyecto ha sido desarrollado como parte de un curso académico y no aceptamos contribuciones externas. Sin embargo, si encuentra algún error o problema en la aplicación, puede informarlo a través de los issues en este repositorio.
+## Contributions
+This project was developed as part of an academic course and we do not accept external contributions. However, if you find any errors or issues in the application, you can report them through the issues in this repository.
