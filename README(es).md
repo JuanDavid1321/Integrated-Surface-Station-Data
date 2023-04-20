@@ -1,4 +1,4 @@
-# Station-Spotter
+# Observador de estaciones climatológicas
 
 [Readme in English](README.md)
 
