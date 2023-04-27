@@ -17,7 +17,7 @@ In addition, using Open Layers, each of these stations is graphed as red points 
 - Tkinter
 - PySpark
 - OpenLayers
-- Servidor Web (puede ser local)
+- Web Server (local)
 
 ## Contributions
 This project was developed as part of an academic course and we do not accept external contributions. However, if you find any errors or issues in the application, you can report them through the issues in this repository.
